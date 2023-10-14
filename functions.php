@@ -5,6 +5,9 @@
  * Hides the 'Add to Cart' button for products not available on the current day
  */
 
+// Set the time zone to "Europe/Rome"
+date_default_timezone_set('Europe/Rome');
+
 // Customize product display based on the day of the week
 function filter_products_by_day_of_week($query) {
     // Check if in the admin panel or not the main query
