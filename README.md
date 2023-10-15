@@ -10,7 +10,9 @@ To use this function, follow these steps:
 
 1. Copy the contents of the provided function and paste it into your WordPress theme's `functions.php` file.
 
-2. Assign your WooCommerce products to product categories based on the day of the week in which each product is available. Use one of the following category names for each product:
+2. Set the correct time zone using date_default_timezone_set().
+
+3. Assign your WooCommerce products to product categories based on the day of the week in which each product is available. Use one of the following category names for each product:
 
    - `monday`
    - `tuesday`
@@ -21,9 +23,9 @@ To use this function, follow these steps:
    - `sunday`
    - `always` (for products available every day)
 
-3. The shop page will automatically filter and display products available for the current day of the week.
+4. The shop page will automatically filter and display products available for the current day of the week.
 
-4. For products that are not available (and do not appear anywhere in the shop, but may be accessed via a direct link), the "Add to Cart" button is disabled.
+5. For products that are not available (and do not appear anywhere in the shop, but may be accessed via a direct link), the "Add to Cart" button is disabled.
 
 ## Example:
 
